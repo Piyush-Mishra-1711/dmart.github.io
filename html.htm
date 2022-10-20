@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        /* position static fixed relative absolute */
+        .position{
+            
+            background-color:aqua;
+            border:2px solid black;
+            display:inline-block;
+            width : 124px;
+            height : 124px;
+            padding :14px 14px;
+
+        }
+        .container{
+            border:2px solid violet;
+            width: 2444px;
+            height:2444px;
+            background-color: grey;
+            margin:0px;
+        }
+        /* #box2{
+            position:relative;      change only with its relative position 
+            top: 14px;
+            left:50px;
+        } */
+        /* #box3{
+            position:absolute;      change wrt position of parent       
+            top: 10px;
+            left:10px;
+
+        } */
+        /* #box4{
+            position:fixed;         will fixed the block or contant
+            right :44px;
+            bottom :3px;
+        } */
+        #box1{
+            align-items:center;
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="position" id="box1">1</p>
+        <p class="position" id="box2">2</p>
+        <p class="position" id="box3">3</p>
+        <p class="position" id="box4">hello moto</p>
+    </div>
+</body>
+
+</html>

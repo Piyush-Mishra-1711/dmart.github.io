@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{background-color: rgb(24, 24, 24);
+}
+header::before{
+    background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center/cover;
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.3;
+    
+}
+.contaner{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    font-size: 25px;
+    border-radius: 26px;
+    
+}
+.class{
+    color:white;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;  /**for horizontal center**/
+    align-items: center;    /**for veertical center**/
+}
+.class li{
+    list-style: none;   
+}
+section{
+    width:100%;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white
+    /* animation: ayish 6s infinite linear; */
+}
+.k{
+    
+    width: 75%;
+    justify-content:center;
+    align-items:center;
+    word-spacing: 4px;
+    
+}
+.k h3{
+    font-size: 1.8rem;
+}
+/* @keyframes ayish{
+    10%{color: aqua;}
+    20%{color: rgb(60, 215, 81);}
+    45%{color: sienna;}
+    75%{color: rgb(255, 0, 140);}
+    100%{color: rgb(55, 0, 255);}
+} */
